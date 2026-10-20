@@ -1,6 +1,6 @@
 # Template file for 'coolercontrol'
 pkgname=coolercontrol
-version=5.0.1
+version=5.1.1
 revision=1
 build_style=cmake
 build_wrksrc=coolercontrol
@@ -14,7 +14,7 @@ license="GPL-3.0-or-later"
 homepage="https://gitlab.com/coolercontrol/coolercontrol"
 changelog="https://gitlab.com/coolercontrol/coolercontrol/-/releases"
 distfiles="https://gitlab.com/coolercontrol/coolercontrol/-/archive/${version}/coolercontrol-${version}.tar.gz"
-checksum=4a501b379ff1d26458473747bd8cd9a090ba62937d0bf8765b948bd251b20dbe
+checksum=6d2869b7c464fe68dc3a7b4c199f5b29b25e6f3ac624d185966270c90022f351
 if [ "$XBPS_TARGET_WORDSIZE" = 32 ]; then
 	broken="qt6-webengine-devel not supported"
 fi
